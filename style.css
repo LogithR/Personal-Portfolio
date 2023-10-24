@@ -1,0 +1,523 @@
+.bg{
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    width: 690px;
+    height:690px;
+    margin-top: -12%;
+}
+/* .first{
+  background-image: url(images/education.gif);
+  background-attachment: fixed;
+  
+  
+} */
+.whole{
+  margin-top: -40px;
+}
+.name{
+    position: absolute;
+    visibility: visible;
+    opacity: 0.7;
+    color: red;
+    display: flex;
+}
+.p{
+    float: right;
+    color: red;
+}
+.body{
+    background:black;
+}
+.hi{
+    color: white;
+    margin-left: 290px;
+    margin-top: 15%;;
+}
+.typewriter {
+    overflow: hidden; /* Ensures the text doesn't overflow the container */
+    border-right: .15em solid orange; /* The typewriter cursor */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: .15em; /* Adjusts the space between characters */
+    animation: typing 4.4s steps(40, end), blink-caret .75s step-end infinite;
+   
+    color: white;
+    margin-left: 290px;
+    margin-top: 1%;
+  }
+  
+  /* The typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%;
+    }
+  }
+  
+  /* The blinking cursor animation */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color:black;
+    }
+  }
+  .col{
+color: yellow;
+  }
+  .line{
+    width: 2px;
+    height: 100px;
+    color: white;
+    position: relative;
+  }
+  .line::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position the line */
+    top: 0; /* Position from the top */
+    left: 90%; /* Position at the center horizontally */
+    transform: translateX(-50%); /* Adjust for center alignment */
+    width: 2px; /* Same as container width */
+    height: 255%; /* Same as container height */
+    background-color: white; /* Line color */
+    margin-left: 109px;
+    margin-top: -259px;
+  }
+  .links{
+   position: absolute;
+   color: white;
+   font-size: 150%;
+   margin-left: 150px;
+   margin-top: -60px;
+   border-radius: 10px;
+   
+  }
+  #pad:hover{
+    transform: scale(1.4);
+    
+  }
+  #pad{
+    padding: 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; /* Center the icon vertically */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #f0f0f0; /* Circle background color */
+    
+  }
+  .para{
+    color: white;
+    margin-left: 290px;
+    margin-top: 4%;
+    font-size: 27px;
+    word-spacing: 0.25em;
+  }
+ 
+  .button{
+    padding: 10px;
+    margin-left: 290px;
+    margin-top: 2%;
+    font-size: 20px;
+    border: 1px solid white;
+    transition: 0.2s;
+    background: black;
+    position: relative;
+    border-radius: 30px;
+    color: white;
+  }
+  .button:hover{
+    transform: scale(1.2);
+  }
+  .button2{
+    margin-left: 90px;
+    padding: 10px;
+    font-size: 20px;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+    position: relative;
+    border-radius: 30px;
+  }
+  .button2:hover{
+    transform: scale(1.2);
+  }
+.follow{
+  color: white;
+    writing-mode: vertical-lr; /* Vertical writing from right to left */
+    text-orientation: mixed; /* Allow both horizontal and vertical characters */
+    white-space: nowrap; /* Prevent text from wrapping */
+    transform: rotate(180deg);
+    margin-top: -275px;
+    margin-left: 60px;
+}
+/* Reset some default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-top: 22%;
+    text-align: center;
+    size: 30px;
+    
+    background-color: black;
+}
+.navbar {
+  background-color: black;
+  position: sticky;
+  top: 0px;
+  padding: 10px 0px;
+}
+
+.start {
+  height: 100px;
+}
+
+.end {
+  height: 500px;
+}
+.navbar button{
+  padding:12px;
+  word-spacing: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 100px;
+  border-style: none;
+ 
+}
+
+.gap {
+  display: inline-block;
+  position: relative;
+  color: 
+#0087ca;
+}
+.gap:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.gap:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.navbar button:focus{
+  border: 1px solid aqua;
+  border-color: aqua;
+}
+
+.gap:hover{
+   transform: scale(1.1);
+}
+
+
+.overall{
+ background-color: black;
+}
+/* ABOUT */
+
+.about{
+  color: white;
+  background-color: black;
+}
+
+
+.circle{
+  width: 270px;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 100px;
+ position: absolute;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+  background-image: url(./images/profile.png);
+}
+.circle:hover{
+  transform:translate(40%,-40%); 
+ /* visibility: hidden; */
+
+} 
+.check{
+  color: white;
+  margin-top: -150px;
+  margin-left: 160px;
+
+}
+.check:hover{
+  position: absolute;
+  visibility: visible;
+}
+.circle1{
+  width: 270px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  
+}
+.circle1 h1{
+  margin-top: 150px;
+  color: black;
+  margin-left: 10px;
+  
+}
+.pro{
+  color:black;
+margin-left: 9%;
+margin-top: -9%;
+}
+
+.about_para{
+  margin-left: 500px;
+  margin-top: -12%;
+  size: 60px;
+  word-spacing: 0.2em;
+  font-size: large;
+  padding-bottom: 180px;
+
+}
+
+
+/* skills */
+.skills{
+  padding: 140px;
+  margin-top: -150px;
+  background-image: url(images/overall.gif);
+  margin-top: 10%;
+  margin-left: -12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 3 equal-width columns */
+  grid-gap: 20px; /* Add some gap between grid items */
+  width: 1000px;
+  height: 420px;
+  
+  padding: 20px;
+  margin-top: -10px;
+ 
+  border-radius: 1%;
+  margin-left: 95px;
+  
+}
+.grid-item {
+  background-color: #3498db;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 10%;
+  
+    
+}
+.grid-item:hover{
+  transform: scale(1.1);
+}
+/* .skillhead{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+} */
+#g1{
+  background-image: url(https://png.pngtree.com/png-vector/20200121/ourmid/pngtree-initial-c-hexagon-logo-vector-template-png-image_2132810.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 0px;
+}
+#g2{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoLl8_zMO9rvagbkoPSxePUlwDOT3evIkgLFx8CJDiLfMZPO7qez4DvXxJuZdXwUhaAP0&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g3{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVvaUaLaNpixP_VC6ZkFfa44mDqvDK7-qH7SGhiLIalxqeJTjFz2isCd1lH8_kPmKqNI&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g12{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2xtTNlf4EWzr_RpdyWZgFJRUTZ0F1G60lg&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g4{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu0K1duEY98RNowp6CaO96ayLn0TNwNb9Bwg&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g5{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/899/566/original/css-letter-logo-design-on-black-background-css-creative-initials-letter-logo-concept-css-letter-design-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g6{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JwkpdICLD70thJ-tQbZc36YW8Efk7i0Yqw&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90px;
+}
+#g7{
+  background-image: url(images/react.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+#g8{
+  background-image: url(images/node.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#g9{
+  background-image: url(images/python.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* education */
+
+.eduname{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create 3 equal-width columns */
+  grid-gap: 140px;
+  width: 1210px;
+  height: 500px;
+  margin-left: 150px;
+  margin-top: -200px; 
+}
+
+.educationgrid{
+  background-color:black;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 10%;
+  /* display: none; */
+  display: grid;
+  border: 3px solid aqua;
+  margin-top: -20px;
+}
+.educationgrid1{
+  background-color:black;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 10%;
+  /* display: none; */
+  display: grid;
+  border: 3px solid aqua;
+  margin-top: -20px;
+}
+.educationgrid:hover{
+   transform: translate(0%,-10%);
+}
+.educationgrid1:hover{
+  transform: translate(0%,-10%);
+}
+
+/* contact */
+
+.contact{
+  background-image: url(images/contact.gif) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 80px;
+}
+.contactborder{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 710px;
+  height: 500px;
+  background-color: black;
+  margin-left: 27%;
+  border-radius: 50px;
+}
+/* .contact form h1{
+  color: white;
+  margin-left: 160px;
+  margin-top: 60px;
+}
+.contact form input{
+  margin-left: 280px;
+  margin-top: -90px;
+} */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid black; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 30px;
+  background-color: black;
+  padding: 20px;
+  margin-top: 60px;
+}
+.container label{
+  color: white;
+}
